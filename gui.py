@@ -142,7 +142,7 @@ class TicTacToeApp:
         if pct < 100:
             self.root.after(25, lambda: self._animate_loading(pct + 4))
         else:
-            self.root.after(300, self.show_mode_select_scre)
+            self.root.after(300, self.show_mode_select_screen)
 
     def show_mode_select_screen(self):
         self._clear()
