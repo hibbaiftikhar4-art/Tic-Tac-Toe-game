@@ -1,10 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox
-
 from game import TicTacToeGame
 import settings as cfg
 class TicTacToeApp:
-
     def __init__(self, root):
         self.root = root
         self.root.title(cfg.WINDOW_TITLE)
